@@ -132,6 +132,10 @@ Este é o site institucional da Associação Promessas, desenvolvido com foco em
 
 ## 🔧 **Como Rodar Localmente**
 
+### 🌐 **Versão Online**
+O site está disponível em: **https://promessas.netlify.app/**
+
+### 💻 **Desenvolvimento Local**
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/associacao-promessas.git
@@ -146,6 +150,11 @@ cd associacao-promessas
 ### 📋 **Pré-requisitos**
 - Navegador moderno (Chrome, Firefox, Safari, Edge)
 - Conexão com internet (para fonts e icons)
+
+### 🚀 **Deploy**
+- **Ambiente de Produção:** Netlify
+- **URL:** https://promessas.netlify.app/
+- **Deploy Automático:** Push para branch main
 
 ---
 
