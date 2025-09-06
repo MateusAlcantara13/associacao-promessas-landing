@@ -11,6 +11,9 @@
       content="Fundada em 2013, a Associação Beneficente Promessas atua no Jardim dos Ipês promovendo educação, cultura e assistência social para famílias em vulnerabilidade."
     />
 
+     <!-- Previne detecção automática do iOS -->
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap"
@@ -25,6 +28,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/animations.css" />
+
+    <!-- Icone promessas-->
+     <link rel="shortcut icon" href="assets/logo/logoPromessas.ico" type="image/x-icon">
   </head>
   <body>
     <!-- Header -->
@@ -410,6 +416,8 @@
           <div>
             <h2>Entre em Contato</h2>
             <div class="contact-info">
+              
+              <!-- Endereço -->
               <div class="contact-item">
                 <i class="fas fa-map-marker-alt"></i>
                 <div>
@@ -419,6 +427,8 @@
                   </p>
                 </div>
               </div>
+              
+              <!-- Email - Texto normal, link funcional apenas nos botões -->
               <div class="contact-item">
                 <i class="fas fa-envelope"></i>
                 <div>
@@ -426,6 +436,8 @@
                   <p>associacaopromessas@gmail.com</p>
                 </div>
               </div>
+              
+              <!-- WhatsApp - Texto normal, link funcional apenas nos botões -->
               <div class="contact-item">
                 <i class="fab fa-whatsapp"></i>
                 <div>
@@ -433,6 +445,8 @@
                   <p>(11) 98400-3314</p>
                 </div>
               </div>
+              
+              <!-- CNPJ - Texto normal, nunca será link -->
               <div class="contact-item">
                 <i class="fas fa-building"></i>
                 <div>
@@ -440,8 +454,11 @@
                   <p>21.871.030/0001-43</p>
                 </div>
               </div>
+              
             </div>
           </div>
+          
+          <!-- CTA Section com links funcionais -->
           <div class="contact-cta">
             <h3>Como Ajudar?</h3>
             <p>
@@ -451,14 +468,17 @@
             </p>
 
             <div class="contact-buttons">
+              <!-- WhatsApp - Link funcional -->
               <a
                 href="https://wa.me/5511984003314?text=Olá! Gostaria de conhecer mais sobre os projetos da Associação Promessas."
                 class="contact-button whatsapp-btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-whatsapp"></i> WhatsApp Web
               </a>
 
+              <!-- Email - Link funcional -->
               <a
                 href="mailto:associacaopromessas@gmail.com?subject=Interesse em ajudar a Associação Promessas&body=Olá! Gostaria de conhecer mais sobre como posso contribuir com os projetos da associação."
                 class="contact-button email-btn"
@@ -466,10 +486,12 @@
                 <i class="fas fa-envelope"></i> Enviar Email
               </a>
 
+              <!-- Instagram - Link funcional -->
               <a
                 href="https://www.instagram.com/oscbeneficentepromessas/"
                 class="contact-button instagram-btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-instagram"></i> Seguir no Instagram
               </a>
